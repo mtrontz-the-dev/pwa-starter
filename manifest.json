@@ -1,49 +1,47 @@
 {
-  "name": "PWA Starter",
+  "dir": "ltr",
+  "lang": "en",
+  "name": "ecoKlēn PWA",
+  "short_name": "ecoKlēn",
+  "theme_color": "#a5f0a2",
+  "background_color": "#a5f0a2",
   "display": "standalone",
-  "start_url": "/",
-  "short_name": "starter",
-  "theme_color": "#E1477E",
-  "description": "This is a PWA Starter app",
   "orientation": "any",
-  "background_color": "#E1477E",
+  "scope": "/",
+  "start_url": "./index.html",
+  "description": "ecoKlēn PWA",
   "related_applications": [],
   "prefer_related_applications": false,
   "icons": [
     {
-      "src": "assets/icons/icon_512.png",
-      "sizes": "512x512"
+      "src": "./assets/icons/favicon-96x96.png",
+      "sizes": "96x96"
     },
     {
-      "src": "assets/icons/icon_192.png",
-      "sizes": "192x192"
+      "src": "./assets/icons/favicon-32x32.png",
+      "sizes": "32x32"
     },
     {
-      "src": "assets/icons/icon_48.png",
-      "sizes": "48x48"
-    },
-    {
-      "src": "assets/icons/icon_24.png",
-      "sizes": "24x24"
-    }
-  ],
-  "screenshots": [
-    {
-      "src": "assets/screenshots/screen.png"
-    },
-    {
-      "src": "assets/screenshots/screen.png"
-    },
-    {
-      "src": "assets/screenshots/screen.png"
+      "src": "./assets/icons/favicon-16x16.png",
+      "sizes": "16x16"
     }
   ],
   "features": [
     "Cross Platform",
-    "fast",
-    "simple"
+    "Environmentally Friendly",
+    "Community Driven"
   ],
   "categories": [
-    "utility"
+    "eco",
+    "services",
+    "community"
+  ],
+  "url_handlers": [
+    {
+      "origin": "https://klen.us"
+    },
+    {
+      "origin": "https://*.klen.us"
+    }
   ]
 }
